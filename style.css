@@ -39,8 +39,10 @@ h2{
 
 #start{
   text-align: left;
+  font-family:monospace;
 }
 
 #end{
   text-align: right;
+  font-family:sans-serif;
 }

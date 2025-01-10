@@ -11,7 +11,38 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+background(180,220,255);
+// The ground
+fill(50,200,140);
+rect(0,310,400,500);
   
+//pig skin
+fill(170,120,100);
+ellipse(200,200,400,200);
+
+//stripes
+fill(255,255,255);
+rect(30,149,20,100);
+rect(350,149,20,100);
+
+//ridges
+strokeWeight(15);
+stroke(255,255,255);
+line(100,200,300,200);
+
+//laces
+rect(105,183,1,30);
+rect(135,183,1,30);
+rect(165,183,1,30);
+rect(195,183,1,30);
+rect(225,183,1,30);
+rect(255,183,1,30);
+rect(285,183,1,30);
+
+
+
+
+
 
   
 
