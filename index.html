@@ -8,7 +8,7 @@ Requirements
 Select ONE Additional 
 [ no ] Feature 1 - three different strokeWeight() commands
 [ no ] Feature 2 - Add a second <canvas>
-[ no ] Feature 3 - Change Tab Title & Image
+[ yes ] Feature 3 - Change Tab Title & Image
 [ no ] Feature 4 - Typewriter Animation
 [ no ] Feature 5 - Gradient Background
 -->
@@ -18,10 +18,28 @@ Select ONE Additional
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Unit 6 Project</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Alemu's Football</title>
+    <link
+      rel="icon"
+      type="image-x-icon"
+      href="https://media.istockphoto.com/id/491317130/vector/american-football-thrown-and-floating-fast.jpg?s=612x612&w=0&k=20&c=etaYDfQI_At5a-J1j09IWT1oqUT38LkpvWyNt8Kuuxw=">
+    <link
+    href="style.css"
+      rel="stylesheet"
+      type="text/css"
+          />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      #start {
+        background-color: red;
+      }
+      .football {
+        color: yellow;
+      }
+      #end {
+        background-color: green;
+      }
+    </style>
   </head>
 
   <body>
@@ -29,11 +47,13 @@ Select ONE Additional
       <div>
         <h2 id="start">How it started.</h2>
         <img
-          class="pic" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Chill_guy_original_artwork.jpg/220px-Chill_guy_original_artwork.jpg"
+          class="pic"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwkva2_w_u7V41LhE9o3rEX1zzHnMnibbYqIqJ_G7bRv9_riaDxi8O_HfNVAWGY1_Q_c&usqp=CAU"
         />
       </div>
       <div>
         <h2 id="end">How it ended.</h2>
+        <p>A <span class="football">football</span> is tossed into the air.</p>
         <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       </div>
     </div>
